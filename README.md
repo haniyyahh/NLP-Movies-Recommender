@@ -15,9 +15,11 @@ song lyrics or more.
 2. Visualization with an educational aspect: Revealing the “behind the scenes” process of how the
 model is working.
 Tasty Initial Approach: A brief overview
-- We’ll be trying to use sentiment analysis to extract a ranked order for sentiments present in the text body
+
+We’ll be trying to use sentiment analysis to extract a ranked order for sentiments present in the text body
 and then match the “genres” from the initial input using a custom model. That model will then simply
 attempt to match the best fitted movies from our dataset and output them as recommendations.
+
 Tasty Data Sources:
 - Letterboxd (Movies Dataset) via Kaggle:
 https://www.kaggle.com/datasets/gsimonx37/letterboxd?select=genres.csv
