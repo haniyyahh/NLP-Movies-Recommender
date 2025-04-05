@@ -7,6 +7,7 @@ inputs. On top of this, this agent will be a learning tool. The user will be abl
 NLP model processes the input and interprets the text to return the best output.
 Overall, the agent becomes a means for a user to have movies suggested for them and it also becomes a
 learning tool for them to understand how an NLP model works.
+
 Tasty Scope:
 The project will be medium-sized, with the focus being on its two functionalities:
 1. Movie Recommendation: Suggesting the most accurate movies based on text input which may be
