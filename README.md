@@ -8,6 +8,12 @@ NLP model processes the input and interprets the text to return the best output.
 Overall, the agent becomes a means for a user to have movies suggested for them and it also becomes a
 learning tool for them to understand how an NLP model works.
 
+How to run the project (currently in DEV mode):
+1. If you do not have all the cleaned CSV files already: Run all the cells in data-preprocessing.ipynb to generate the cleaned CSVs
+2. Run all cells in vector-search.ipynb to enable semantic analysis of the dataset, in which the model can successfully come up with movie recommendations via queries
+3. Run all the cells in text-classification -- WORK IN PROGRESS
+
+
 Scope:
 The project will be medium-sized, with the focus being on its two functionalities:
 1. Movie Recommendation: Suggesting the most accurate movies based on text input which may be
