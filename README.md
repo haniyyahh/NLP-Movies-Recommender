@@ -1,5 +1,5 @@
 # NLP-Movies-Recommender
-
+![screenshot](screen-image.png)
 
 Goal:
 We’ll be trying to use sentiment analysis to extract a ranked order for sentiments present in the movies dataset
