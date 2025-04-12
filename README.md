@@ -29,3 +29,21 @@ attempt to match the best fitted movies from our dataset and output them as reco
 Data Sources:
 - Letterboxd (Movies Dataset) via Kaggle:
 https://www.kaggle.com/datasets/gsimonx37/letterboxd?select=genres.csv
+
+# How to run dashboard locally:
+### 1. Clone the repo
+git clone https://github.com/yourusername/your-repo-name.git
+cd your-repo-name
+
+### 2. (Optional but recommended) Create and activate a virtual environment
+python -m venv .venv
+### On Windows:
+.venv\Scripts\activate
+### On Mac/Linux:
+source .venv/bin/activate
+
+### 3. Install dependencies
+pip install -r requirements.txt
+
+### 4. Run the dashboard
+python gradio-dashboard.py
