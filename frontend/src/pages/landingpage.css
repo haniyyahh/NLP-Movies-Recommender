@@ -1,0 +1,62 @@
+.landing-container {
+    height: 100vh;
+    width: 100%;
+    background: radial-gradient(circle at bottom right, #ce2f8e, #000000);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Helvetica Neue', sans-serif;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .logo {
+    width: 100px;
+    margin-bottom: 1rem;
+    animation: flyIn 2s ease-out forwards; /* Apply the flying animation */
+  }
+  
+  .title {
+    font-size: 60px;
+    letter-spacing: 8px;
+    margin: 0;
+  }
+  
+  .subtitle {
+    font-size: 16px;
+    margin-bottom: 2rem;
+  }
+  
+  .begin-button {
+    padding: 12px 24px;
+    font-size: 18px;
+    border-radius: 30px;
+    border: none;
+    background: linear-gradient(to bottom, #fff, #ddd);
+    color: #000;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .begin-button:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Keyframes to animate the logo */
+  @keyframes flyIn {
+    0% {
+      transform: translateX(-100vw) rotate(0deg); /* Start from the left, off-screen */
+      opacity: 0;
+    }
+    50% {
+      transform: translateX(50vw) rotate(360deg); /* Midway, rotate and slightly move */
+      opacity: 0.7;
+    }
+    100% {
+      transform: translateX(0) rotate(720deg); /* End position, centered */
+      opacity: 1;
+    }
+  }
+  
